@@ -1,0 +1,171 @@
+
+#titleBenefitsPlus {
+    position: relative;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Open Sans';
+    letter-spacing: 1.5px;
+    top: 85px;
+    text-align: center;
+}
+.containerCardsData {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-flow: row wrap;
+    margin-top: 146px;
+}
+
+.containerCardsDataList {
+    position: relative;
+    width: 90%;
+    height: auto;
+    display: contents;
+    justify-content: center;
+    justify-items: center;
+    flex-flow: row wrap;
+}
+
+.cardsInfo {
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    border-radius: 40px;
+    width: 260px;
+    height: 354px;
+    top: 24px;
+    margin-right: 68px;
+    margin-bottom: 24px;
+
+}
+
+.cardsInfoList {
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    border-radius: 16px;
+    width: 260px;
+    height: 380px;
+    top: 24px;
+    bottom: 32px;
+    /* margin-right: 24px; */
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.elementsInfobenefitsPlus {
+    position: relative;
+    justify-content: center;
+}
+
+.containerImagebenefitsPlus {
+    position: relative;
+    height: 190px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: visible;
+}
+
+#elementImage {
+    position: relative;
+    height: 180px;
+    height: 136px;
+}
+
+.containerText {
+    position: relative;
+    width: 97%;
+    height: 137px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    left: 5px;
+    top: -18px;
+}
+
+#instantCoupeText {
+    position: relative;
+    left: 15px;
+    background-color: rgb(200, 236, 254);
+    padding: 10px;
+    border-radius: 49px;
+    top: -30px;
+}
+
+#namebenefitsPlus {
+    position: absolute;
+    text-align: left;
+    top: 26px;
+    left: 20px;
+    color: rgb(160, 160, 160);
+    font-size: 12px;
+    font-weight: 800;
+    font-family: 'Open Sans';
+    letter-spacing: 1.5px;
+}
+
+#promoInfobenefitsPlus {
+    position: absolute;
+    text-align: left;
+    top: 54px;
+    left: 20px;
+    color: rgb(72, 72, 72);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    letter-spacing: 1.5px;
+}
+
+#buttonGetCoupon {
+    position: absolute;
+    text-align: left;
+    bottom: 16px;
+    left: 24px;
+    color: rgb(160, 160, 160);
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+#arrowIconCupon {
+    position: relative;
+    top: 7px;
+    left: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(118, 124, 174);
+}
+
+#couponIcon {
+    position: relative;
+    top: 3px;
+    font-size: 15px;
+}
+#paginationButton {
+    position: relative;
+    cursor: pointer;
+    color: rgb(65, 67, 67);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    letter-spacing: 1.5px;
+}
+
+#paginationButtonDisable {
+    position: relative;
+    pointer-events: none;
+    color: rgb(160, 170, 170);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    letter-spacing: 1.5px;
+}

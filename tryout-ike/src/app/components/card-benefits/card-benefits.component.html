@@ -1,0 +1,16 @@
+<h3 id="titleBenefitsPlus">Unlock the full power of</h3>
+
+<div class="{{viewGridOrList}}">
+  <div *ngFor="let brandsInfo of dataInfoBrands" class="{{cardsInfo}}">
+      <div class="containerImagebenefitsPlus">
+          <img height="200px" width="97%" id="elementImage" src="{{brandsInfo.logo_marca}}" alt="">
+      </div>
+      <label id="instantCoupeText"><span id="couponIcon" class="material-symbols-outlined">
+              local_activity
+          </span> Cashback</label>
+      <div class="containerText">
+          <label id="promoInfobenefitsPlus">{{brandsInfo.promo_marca}}</label>
+          <label id="namebenefitsPlus">{{brandsInfo.nombre_marca}}</label>
+      </div>
+  </div>
+</div>

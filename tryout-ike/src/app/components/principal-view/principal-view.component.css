@@ -1,0 +1,137 @@
+.containerTable{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+    bottom: 16px;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: visible;
+}
+.containerDataPromotion {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+    bottom: 16px;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: scroll;
+}
+
+.containerToolBar {
+    display: flex;
+    -moz-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: flex-end;
+    bottom: 16px;
+    margin-bottom: 40px;
+    position: relative;
+    width: 100%;
+    height: 33px;
+}
+.containerPlusBenefits {
+    display: flex;
+    -moz-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+    bottom: 16px;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: scroll;
+    width: 100%;
+    height: 764px;
+    margin-top: 56px;
+    background: linear-gradient(to bottom, rgb(2, 10, 140), 52%, white);
+}
+.containerFooter {
+    display: flex;
+    -moz-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+    bottom: 16px;
+    margin-bottom: 40px;
+    position: relative;
+    width: 100%;
+    height: 33px;
+}
+#buttoGetCard{
+    background-color: rgb(22, 51, 203);
+    color: rgb(207, 219, 246);
+    text-align: center;
+    border-radius: 35px;
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Open Sans';
+    height: 42px;
+    width: 180px;
+    text-transform: uppercase;
+    cursor: pointer;
+    top: 70px;
+    position: relative;
+}
+.containerImagePlusBenefits {
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    height: 190px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: visible;
+}
+.cardsInfoPlusBenefits {
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    border-radius: 16px;
+    width: 260px;
+    height: 300;
+    top: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+#buttoGetCard2{
+    background-color: rgb(22, 51, 203);
+    color: rgb(207, 219, 246);
+    text-align: center;
+    border-radius: 35px;
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Open Sans';
+    height: 42px;
+    width: 180px;
+    text-transform: uppercase;
+    cursor: pointer;
+    top: 70px;
+    position: relative;
+}
+.rightArrow {
+    position: relative;
+    top: 3px;
+    margin-bottom: 6px;
+    font-size: 15px;
+}

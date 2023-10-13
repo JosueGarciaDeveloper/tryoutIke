@@ -1,0 +1,50 @@
+
+.sectionTermsPolicy {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#cookie {
+    position: relative;
+    margin-left: 14px;
+    color: rgb(52, 55, 228);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+#privacy {
+    position: relative;
+    margin-left: 14px;
+    color: rgb(52, 55, 228);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+#terms {
+    position: relative;
+    margin-left: 14px;
+    color: rgb(52, 55, 228);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+#contat {
+    position: relative;
+    margin-left: 14px;
+    color: rgb(52, 55, 228);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.containerButtonsHeader {
+    position: relative;
+    margin-top: 40px;
+    margin-right: 80px;
+}
+#loginButton {
+    position: relative;
+    margin-right: 14px;
+    border-radius: 16px;
+    width: 130px;
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid rgb(217, 217, 217);
+    color: rgb(84, 84, 84);
+}
+
+#buttoGetCard2{
+    background-color: rgb(22, 51, 203);
+    color: rgb(207, 219, 246);
+    text-align: center;
+    border-radius: 35px;
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Open Sans';
+    height: 33px;
+    width: 180px;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+}
+.rightArrow {
+    position: relative;
+    top: 3px;
+    margin-bottom: 6px;
+    font-size: 15px;
+}

@@ -1,0 +1,81 @@
+.containerTitleTable {
+    position: relative;
+    flex-flow: row wrap;
+}
+.tittleTable{
+    position: relative;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    letter-spacing: 0.8;
+}
+.separateText {
+    position: relative;
+    left: 162px;
+}
+.textDownCenter {
+    position: relative;
+    left: 32px;
+}
+.textDescription {
+    position: relative;
+    color: rgb(38, 59, 159);
+    font-weight: 600;
+    font-family: 'Open Sans';
+}
+table {
+    position: relative;
+    margin-top: 0px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 50px 40px;
+}
+th {
+    position: relative;
+    left: 24px;
+    width: 25%;
+}
+#headerTable {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    font-family: 'Open Sans';
+}
+#textLeft {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Open Sans';
+}
+#circleThick {
+    border: 3px solid rgb(27, 50, 151);
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 74px;
+    top: -26px;
+}
+#circleThickCenter {
+    border: 3px solid rgb(27, 50, 151);
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 74px;
+    top: -15px;
+}
+#checkIcon {
+    position: absolute;
+    left: 12px;
+    top: 4px;
+    width: 5px;
+    height: 18px;
+    border: solid rgb(227, 184, 72);
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}

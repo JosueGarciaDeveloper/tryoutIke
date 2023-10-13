@@ -1,0 +1,388 @@
+#titleSectionDataPromotion {
+    position: relative;
+    font-size: 58px;
+    font-weight: 600;
+    letter-spacing: 0.5;
+    font-family: 'Open Sans';
+    text-align: center;
+}
+
+.containerCategories {
+    position: relative;
+    flex-flow: row wrap;
+    width: 676px;
+    bottom: 14px;
+    margin: auto;
+    left: 24px;
+}
+
+.containerNullBrands {
+    position: relative;
+    flex-flow: row wrap;
+    width: 676px;
+    bottom: 14px;
+    left: 24px;
+}
+
+
+#contenedorPaginacion {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+    bottom: 16px;
+    margin-bottom: 40px;
+    position: relative;
+    justify-content: center;
+    align-items: center; 
+    top: 28px; 
+}
+.containerDataPromotion {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+    bottom: 16px;
+    margin-bottom: 40px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+.buttonDesign {
+    text-align: center;
+    background-color: rgb(43, 43, 43);
+    color: rgb(207, 219, 246);
+    text-align: center;
+    border-radius: 35px;
+    border: 1px solid transparent;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Open Sans';
+    height: 26px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: auto;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.buttonDesignInactive {
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    color: black;
+    text-align: center;
+    border-radius: 35px;
+    border: 1px solid transparent;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Open Sans';
+    height: 26px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: auto;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.sectionButtonsTools {
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin-bottom: 24px;
+    margin-top: 14px;
+}
+
+.containeButtons {
+    position: relative;
+    width: 50%;
+    text-align: right;
+    margin-right: 24px;
+}
+
+#iconVieList {
+    position: relative;
+    width: 37px;
+    margin-right: 8px;
+    border: 1px transparent solid;
+}
+
+#iconList {
+    bottom: -4px;
+    right: 9px;
+}
+
+#iconActive {
+    position: relative;
+    top: 2px;
+    color: rgb(150, 171, 234);
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#iconListActive {
+    position: relative;
+    width: 37px;
+    margin-right: 8px;
+    border: 1px transparent solid;
+    background-color: rgb(21, 49, 184);
+    color: rgb(150, 171, 234);
+}
+
+
+#sortData {
+    position: relative;
+    width: 80px;
+    bottom: 6px;
+    height: 26px;
+    color: rgb(71, 104, 171);
+    border: 1px solid rgb(71, 104, 171);
+    border-radius: 2px;
+}
+
+#iconGridView {
+    position: relative;
+    width: 33px;
+    border: 1px solid transparent;
+    padding: 0px;
+    margin-right: 8px;
+    background-color: rgb(21, 49, 184);
+    color: rgb(150, 171, 234);
+    height: 30px !important;
+}
+
+#iconGridViewInactive {
+    position: relative;
+    width: 33px;
+    border: 1px solid transparent;
+    padding: 0px;
+    margin-right: 8px;
+    background-color: transparent;
+    color: rgb(150, 171, 234);
+    height: 30px !important;
+}
+
+#iconGrid {
+    position: relative;
+    top: 2px;
+}
+
+#insideButtonText {
+    position: relative;
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    letter-spacing: 0.5px;
+    border-right: 0.05px solid rgb(71, 104, 171);
+    width: 47px;
+    height: 16px;
+    padding-bottom: 0px;
+    color: rgb(71, 104, 171);
+}
+
+#buttonExpand {
+    position: absolute;
+    font-size: 18px;
+    bottom: 2px;
+    color: rgb(71, 104, 171);
+    right: 3px;
+}
+
+#nameBrandsTitle {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    right: 60px;
+    color: rgb(145, 145, 145);
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    letter-spacing: 0.5px;
+}
+
+.containerCardsData {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-flow: row wrap;
+}
+
+.containerCardsDataList {
+    position: relative;
+    width: 90%;
+    height: auto;
+    display: contents;
+    justify-content: center;
+    justify-items: center;
+    flex-flow: row wrap;
+}
+
+.cardsInfo {
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    border-radius: 16px;
+    width: 260px;
+    height: 454px;
+    top: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+
+}
+
+.cardsInfoList {
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    border-radius: 16px;
+    width: 260px;
+    height: 380px;
+    top: 24px;
+    bottom: 32px;
+    /* margin-right: 24px; */
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.elementsInfoBrands {
+    position: relative;
+    justify-content: center;
+}
+
+.containerImageBrands {
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    height: 190px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: visible;
+}
+
+#elementImage {
+    position: relative;
+    height: 180px;
+    height: 136px;
+}
+
+.containerText {
+    position: relative;
+    width: 97%;
+    height: 216px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    left: 5px;
+    top: 21px;
+}
+
+#instantCoupeText {
+    position: relative;
+    left: 15px;
+    background-color: rgb(250, 237, 159);
+    padding: 10px;
+    border-radius: 49px;
+    top: 9px;
+}
+
+#nameBrands {
+    position: absolute;
+    text-align: left;
+    top: 26px;
+    left: 20px;
+    color: rgb(160, 160, 160);
+    font-size: 12px;
+    font-weight: 800;
+    font-family: 'Open Sans';
+    letter-spacing: 1.5px;
+}
+
+#promoInfoBrands {
+    position: absolute;
+    text-align: left;
+    top: 54px;
+    left: 20px;
+    color: rgb(72, 72, 72);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    letter-spacing: 1.5px;
+}
+
+#buttonGetCoupon {
+    position: absolute;
+    text-align: left;
+    bottom: 16px;
+    left: 24px;
+    color: rgb(160, 160, 160);
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+#arrowIconCupon {
+    position: relative;
+    top: 7px;
+    left: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(118, 124, 174);
+}
+
+#couponIcon {
+    position: relative;
+    top: 3px;
+    font-size: 15px;
+}
+#paginationButton {
+    position: relative;
+    cursor: pointer;
+    color: rgb(65, 67, 67);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    letter-spacing: 1.5px;
+}
+
+#paginationButtonDisable {
+    position: relative;
+    pointer-events: none;
+    color: rgb(160, 170, 170);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    letter-spacing: 1.5px;
+}
+.rightArrow {
+    position: absolute;
+    top: 1px;
+    color: rgb(123, 131, 171);
+    margin-left: 8px;
+}

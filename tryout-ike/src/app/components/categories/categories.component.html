@@ -1,0 +1,65 @@
+<h2 id="titleSectionDataPromotion">Explore Instant Coupons</h2>
+<div class="{{containerCategories}}">
+    <button class="{{backgroundDinamyc1}}" (click)="updateClass(categorie1)">{{categorie1}}</button>
+    <button class="{{backgroundDinamyc2}}" (click)="updateClass(categorie2)">{{categorie2}}</button>
+    <button class="{{backgroundDinamyc3}}" (click)="updateClass(categorie3)">{{categorie3}}</button>
+    <button class="{{backgroundDinamyc4}}" (click)="updateClass(categorie4)">{{categorie4}}</button>
+    <button class="{{backgroundDinamyc5}}" (click)="updateClass(categorie5)">{{categorie5}}</button>
+    <button class="{{backgroundDinamyc6}}" (click)="updateClass(categorie6)">{{categorie6}}</button>
+    <button class="{{backgroundDinamyc7}}" (click)="updateClass(categorie7)">{{categorie7}}</button>
+    <button class="{{backgroundDinamyc8}}" (click)="updateClass(categorie8)">{{categorie8}}</button>
+    <button class="{{backgroundDinamyc9}}" (click)="updateClass(categorie9)">{{categorie9}}</button>
+</div>
+<div>
+</div>
+
+
+<div class="">
+    <div class="sectionButtonsTools">
+        <label id="nameBrandsTitle">{{nameCategorieShow}} ({{totalBranchForSection}})</label>
+        <div class="containeButtons">
+
+
+            <button (click)="changeViewList()" id="{{activeViewList}}">
+                <span id="iconActive" class="material-symbols-outlined">
+                    list
+                </span>
+            </button>
+            <button (click)="changeViewGrid()" id="{{activeViewGrid}}">
+                <span id="iconGrid" class="material-symbols-outlined">
+                    grid_view
+                </span>
+            </button>
+
+            <button id="sortData"><label id="insideButtonText">Sort by</label><span id="buttonExpand"
+                    class="material-symbols-outlined">
+                    expand_more
+                </span></button>
+        </div>
+    </div>
+
+    <div class="{{viewGridOrList}}">
+        <div *ngFor="let brandsInfo of dataInfoBrands" class="{{cardsInfo}}">
+            <div class="containerImageBrands">
+                <img height="166px" width="166px" id="elementImage" src="{{brandsInfo.logo_marca}}" alt="">
+            </div>
+            <label id="instantCoupeText"><span id="couponIcon" class="material-symbols-outlined">
+                    local_activity
+                </span> Instant Coupon</label>
+            <div class="containerText">
+                <label id="promoInfoBrands">{{brandsInfo.promo_marca}}</label>
+                <label id="nameBrands">{{brandsInfo.nombre_marca}}</label>
+                <label (click)="downloadCoupon(brandsInfo.id_marca)" id="buttonGetCoupon" for="">Get Coupon <span id="arrowIconCupon"
+                        class="material-symbols-outlined">
+                        arrow_forward
+                    </span></label>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<div id="contenedorPaginacion">
+    <label (click)="showMoreBrands()" id="{{buttonPaginatorClass}}" for="">More Instant Coupons<span class="rightArrow material-symbols-outlined">
+        chevron_right
+        </span> </label>
+</div>
